@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 690" role="img" aria-labelledby="title desc">
+  <title id="title">Настольная лампа Luma в интерьере</title>
+  <desc id="desc">Иллюстрация лампы из матового металла на деревянном столе у окна.</desc>
+  <defs>
+    <linearGradient id="wall" x2="1" y2="1"><stop stop-color="#e7e4d9"/><stop offset="1" stop-color="#d8d8cc"/></linearGradient>
+    <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#c99868"/><stop offset="1" stop-color="#9d704f"/></linearGradient>
+    <linearGradient id="shade" x2="0" y2="1"><stop stop-color="#f3c875"/><stop offset="1" stop-color="#d5a65a"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <rect width="900" height="690" rx="28" fill="url(#wall)"/>
+  <circle cx="687" cy="166" r="112" fill="#eee9da" opacity=".7"/>
+  <path d="M73 0h285v405H73z" fill="#f1f0e8" opacity=".66"/>
+  <path d="M210 0v405M73 202h285" stroke="#d1d0c5" stroke-width="12" opacity=".75"/>
+  <path d="M0 476h900v214H0z" fill="url(#wood)"/>
+  <path d="M0 497c230-30 456 32 900-4" fill="none" stroke="#dfb787" stroke-width="5" opacity=".6"/>
+  <ellipse cx="502" cy="533" rx="194" ry="33" fill="#473d32" opacity=".2" filter="url(#shadow)"/>
+  <path d="M481 467c9-72 45-127 93-172" fill="none" stroke="#333a38" stroke-width="25" stroke-linecap="round"/>
+  <path d="M575 296c31-37 69-56 118-52" fill="none" stroke="#333a38" stroke-width="24" stroke-linecap="round"/>
+  <path d="M633 243l-5-116c-1-18 13-32 31-32h126c19 0 32 15 29 33l-18 113c-2 13-14 22-27 22H660c-14 0-26-8-27-20z" fill="url(#shade)"/>
+  <ellipse cx="724" cy="260" rx="98" ry="16" fill="#b88b4c"/>
+  <path d="M420 464h151c11 0 18 8 17 18l-2 12c-1 9-9 16-18 16H423c-11 0-18-8-17-18l1-11c1-10 5-17 13-17z" fill="#303735"/>
+  <path d="M678 261l18 35" stroke="#ffe4ab" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <path d="M609 292c-28 44-50 89-65 138" fill="none" stroke="#f4d79c" stroke-width="22" opacity=".18"/>
+  <rect x="86" y="441" width="106" height="35" rx="5" fill="#31544b"/>
+  <path d="M101 441c-10-45-8-80 12-115 8 45 6 78-12 115zm32 0c-4-56 10-99 41-133-8 55-20 96-41 133z" fill="#577264"/>
+  <path d="M121 447V337m13 109V315" stroke="#6f8777" stroke-width="5"/>
+  <rect x="712" y="421" width="97" height="55" rx="9" fill="#f4f0e3"/>
+  <path d="M729 433h63M729 447h48M729 461h56" stroke="#c9c1af" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Каталог ЛИНИЯ: свет, предметы для отдыха и детали для дома с продуманным дизайном.">
+    <title>Каталог предметов — ЛИНИЯ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-header__brand" href="index.html" aria-label="ЛИНИЯ — на главную">
+          <img
+            class="site-header__ribbon"
+            src="images/logo-ribbon.svg"
+            alt=""
+            width="36"
+            height="40"
+            aria-hidden="true">
+          <span class="site-header__wordmark">иния</span>
+        </a>
+        <nav class="site-nav" aria-label="Основная навигация">
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link" href="index.html">Главная</a></li>
+            <li><a class="site-nav__link" href="catalog.html" aria-current="page">Каталог</a></li>
+            <li><a class="site-nav__link" href="product.html">Luma</a></li>
+            <li><a class="site-nav__link" href="order.html">Заявка</a></li>
+            <li><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <a class="button button--small site-header__cta" href="order.html">Подобрать предмет</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+
+      <section class="container page-intro" aria-labelledby="page-title">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a>
+          <span class="breadcrumbs__separator" aria-hidden="true">/</span>
+          <span aria-current="page">Каталог</span>
+        </nav>
+        <p class="eyebrow">Коллекция ЛИНИЯ</p>
+        <h1 id="page-title">Предметы с характером</h1>
+        <p>
+          Свет, отдых и детали для дома. Используйте категории, чтобы перейти к нужному
+          разделу, или напишите нам — поможем собрать комплект.
+        </p>
+      </section>
+      <div class="container catalog-layout">
+        <aside class="catalog-aside" aria-labelledby="category-title">
+          <h2 id="category-title">Категории</h2>
+          <p data-result-count aria-live="polite">Показано 6 товаров</p>
+          <ul class="catalog-aside__links">
+            <li><a href="#light">Свет</a></li>
+            <li><a href="#rest">Отдых</a></li>
+            <li><a href="#details">Детали</a></li>
+          </ul>
+          <div class="catalog-aside__filters" aria-labelledby="filter-title">
+            <h3 id="filter-title">Фильтр по наличию</h3>
+            <ul class="catalog-aside__filter-list">
+              <li>
+                <button
+                  class="catalog-filter catalog-filter--active"
+                  type="button"
+                  data-catalog-filter="all"
+                  aria-pressed="true">
+                  Все товары
+                </button>
+              </li>
+              <li>
+                <button
+                  class="catalog-filter"
+                  type="button"
+                  data-catalog-filter="in-stock"
+                  aria-pressed="false">
+                  В наличии
+                </button>
+              </li>
+              <li>
+                <button
+                  class="catalog-filter"
+                  type="button"
+                  data-catalog-filter="made-to-order"
+                  aria-pressed="false">
+                  Под заказ
+                </button>
+              </li>
+            </ul>
+            <p class="catalog-aside__note">Выберите статус, чтобы увидеть подходящие товары.</p>
+          </div>
+        </aside>
+        <div class="catalog-main">
+          <p class="catalog-toolbar__count">Коллекция «Тихий ритм» · весна 2026</p>
+          <section class="catalog-category" id="light" aria-labelledby="light-title">
+            <div class="catalog-category__heading">
+              <h2 id="light-title">Свет</h2>
+              <span data-category-count>2 товара</span>
+            </div>
+            <div class="catalog-grid">
+              <article class="product-card" data-product-availability="in-stock">
+                <div class="product-card__media">
+                  <span class="product-card__badge">Хит</span>
+                  <img
+                    class="product-card__image"
+                    src="images/luma-lamp.jpg"
+                    alt="Настольная лампа на рабочем столе рядом с ноутбуком"
+                    width="1200"
+                    height="1000"
+                    loading="lazy">
+                </div>
+                <div class="product-card__body">
+                  <p class="product-card__category">Настольный свет</p>
+                  <h3 class="product-card__title">Лампа Luma</h3>
+                  <p class="product-card__description">Поворотный плафон и тёплый свет для рабочего места.</p>
+                  <div class="product-card__footer">
+                    <span class="product-card__price">12 900 ₽<small>В наличии</small></span>
+                    <a class="button button--small product-card__button" href="product.html">Подробнее</a>
+                  </div>
+                </div>
+              </article>
+              <article class="product-card" data-product-availability="made-to-order">
+                <div class="product-card__media">
+                  <span class="product-card__badge">Новинка</span>
+                  <img
+                    class="product-card__image"
+                    src="images/luma-graphite.jpg"
+                    alt="Чёрная настольная лампа на прикроватной тумбе"
+                    width="1200"
+                    height="1000"
+                    loading="lazy">
+                </div>
+                <div class="product-card__body">
+                  <p class="product-card__category">Настольный свет</p>
+                  <h3 class="product-card__title">Luma Graphite</h3>
+                  <p class="product-card__description">Та же удобная форма в глубоком графитовом цвете.</p>
+                  <div class="product-card__footer">
+                    <span class="product-card__price">13 400 ₽<small>Предзаказ</small></span>
+                    <a class="button button--quiet button--small product-card__button" href="order.html">
+                      Узнать детали
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="catalog-category" id="rest" aria-labelledby="rest-title">
+            <div class="catalog-category__heading">
+              <h2 id="rest-title">Отдых</h2>
+              <span data-category-count>2 товара</span>
+            </div>
+            <div class="catalog-grid">
+              <article class="product-card" data-product-availability="made-to-order">
+                <div class="product-card__media">
+                  <span class="product-card__badge">Новинка</span>
+                  <img
+                    class="product-card__image"
+                    src="images/sora-chair.jpg"
+                    alt="Зелёное кресло в комнате с яркими акцентами"
+                    width="1200"
+                    height="1000"
+                    loading="lazy">
+                </div>
+                <div class="product-card__body">
+                  <p class="product-card__category">Мягкая мебель</p>
+                  <h3 class="product-card__title">Кресло Sora</h3>
+                  <p class="product-card__description">Удобная посадка и лаконичная форма для уголка отдыха.</p>
+                  <div class="product-card__footer">
+                    <span class="product-card__price">38 400 ₽<small>Под заказ</small></span>
+                    <a class="button button--quiet button--small product-card__button" href="order.html">
+                      Узнать детали
+                    </a>
+                  </div>
+                </div>
+              </article>
+              <article class="product-card" data-product-availability="made-to-order">
+                <div class="product-card__media">
+                  <img
+                    class="product-card__image"
+                    src="images/sora-sand.jpg"
+                    alt="Светлое кресло и диван в современной гостиной"
+                    width="1200"
+                    height="1000"
+                    loading="lazy">
+                </div>
+                <div class="product-card__body">
+                  <p class="product-card__category">Мягкая мебель</p>
+                  <h3 class="product-card__title">Sora Sand</h3>
+                  <p class="product-card__description">Тёплая обивка, которая сочетается с натуральным деревом.</p>
+                  <div class="product-card__footer">
+                    <span class="product-card__price">39 100 ₽<small>Под заказ</small></span>
+                    <a class="button button--quiet button--small product-card__button" href="order.html">
+                      Узнать детали
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="catalog-category" id="details" aria-labelledby="details-title">
+            <div class="catalog-category__heading">
+              <h2 id="details-title">Детали</h2>
+              <span data-category-count>2 товара</span>
+            </div>
+            <div class="catalog-grid">
+              <article class="product-card" data-product-availability="in-stock">
+                <div class="product-card__media">
+                  <span class="product-card__badge">Ручная работа</span>
+                  <img
+                    class="product-card__image"
+                    src="images/mori-mug.jpg"
+                    alt="Терракотовая керамическая кружка на деревянном столе"
+                    width="1200"
+                    height="1000"
+                    loading="lazy">
+                </div>
+                <div class="product-card__body">
+                  <p class="product-card__category">Керамика</p>
+                  <h3 class="product-card__title">Кружка Mori</h3>
+                  <p class="product-card__description">Небольшая серия кружек с мягкой матовой глазурью.</p>
+                  <div class="product-card__footer">
+                    <span class="product-card__price">2 100 ₽<small>В наличии</small></span>
+                    <a class="button button--quiet button--small product-card__button" href="order.html">
+                      Узнать детали
+                    </a>
+                  </div>
+                </div>
+              </article>
+              <article class="product-card" data-product-availability="in-stock">
+                <div class="product-card__media">
+                  <img
+                    class="product-card__image"
+                    src="images/nook-organizer.jpg"
+                    alt="Бамбуковая подставка для ручек и маркеров на столе"
+                    width="1200"
+                    height="1000"
+                    loading="lazy">
+                </div>
+                <div class="product-card__body">
+                  <p class="product-card__category">Хранение</p>
+                  <h3 class="product-card__title">Органайзер Nook</h3>
+                  <p class="product-card__description">Помогает собрать мелочи на столе в одном месте.</p>
+                  <div class="product-card__footer">
+                    <span class="product-card__price">3 600 ₽<small>В наличии</small></span>
+                    <a class="button button--quiet button--small product-card__button" href="order.html">
+                      Узнать детали
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+          <p class="catalog-note">
+            <strong>Небольшой проект:</strong>
+            товары и цены приведены для учебного каталога. Категории работают как якорные
+            ссылки на разделы страницы, а фильтр показывает товары по выбранному статусу.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__main">
+          <div>
+            <a class="site-footer__brand" href="index.html" aria-label="ЛИНИЯ — на главную">
+              <img
+                class="site-header__ribbon"
+                src="images/logo-ribbon.svg"
+                alt=""
+                width="36"
+                height="40"
+                aria-hidden="true">
+              <span class="site-header__wordmark">иния</span>
+            </a>
+            <p class="site-footer__description">
+              Предметы для спокойного дома. Небольшой учебный проект о форме, пользе и
+              внимании к деталям.
+            </p>
+          </div>
+          <div>
+            <h2>Разделы</h2>
+            <ul class="site-footer__links">
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="product.html">Лампа Luma</a></li>
+              <li><a href="order.html">Заявка</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>На этой странице</h2>
+            <ul class="site-footer__links">
+              <li><a href="#light">Свет</a></li>
+              <li><a href="#rest">Отдых</a></li>
+              <li><a href="#details">Детали</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <p>© 2026 ЛИНИЯ · Учебный проект</p>
+          <p>Каталог представлен в ознакомительных целях</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
